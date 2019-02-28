@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HyQtShare", "HyQtShare\HyQtShare.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "控件演示", "FramelessWindowDarkStyle\frameless_window_dark.vcxproj", "{15D7ED07-20FB-3F75-9273-BC08CD4A9C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{15D7ED07-20FB-3F75-9273-BC08CD4A9C9B}.Debug|x64.ActiveCfg = Debug|x64
+		{15D7ED07-20FB-3F75-9273-BC08CD4A9C9B}.Debug|x64.Build.0 = Debug|x64
+		{15D7ED07-20FB-3F75-9273-BC08CD4A9C9B}.Release|x64.ActiveCfg = Release|x64
+		{15D7ED07-20FB-3F75-9273-BC08CD4A9C9B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60712BA-475C-40EE-9B4C-351277860869}
+	EndGlobalSection
+EndGlobal

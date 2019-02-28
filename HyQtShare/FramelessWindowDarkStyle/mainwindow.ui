@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>746</width>
+    <height>704</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>系统预设风格：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="duplicatesEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>tab页跳转</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="placeholderText">
+         <string>请输入标签页名称</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="text">
+         <string>显示tab页</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="text">
+         <string>隐藏tab页</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="text">
+         <string>演示可伸缩窗口</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>基础控件</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0" colspan="2">
+         <widget class="QToolBox" name="toolBox">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="page">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>698</width>
+             <height>69</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>富文本框标签</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;pre style=&quot; margin-top:0px; margin-bottom:0px; margin-left:40px; margin-right:40px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#333333; vertical-align:top;&quot;&gt;这也是一个文本标签，支持html，示例代码如下。&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot; margin-top:0px; margin-bottom:0px; margin-left:40px; margin-right:40px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-4.8/qlabel.html&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; text-decoration: underline; color:#566e19; vertical-align:top;&quot;&gt;QLabel&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#000000; vertical-align:top;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#333333; vertical-align:top;&quot;&gt;label &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#000000; vertical-align:top;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#009900; vertical-align:top;&quot;&gt;new&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-4.8/qlabel.html&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; text-decoration: underline; color:#566e19; vertical-align:top;&quot;&gt;QLabel&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#000000; vertical-align:top;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#666666; vertical-align:top;&quot;&gt;&amp;quot;&amp;lt;h2&amp;gt;&amp;lt;i&amp;gt;Hello&amp;lt;/i&amp;gt; &amp;quot;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot; margin-top:0px; margin-bottom:0px; margin-left:40px; margin-right:40px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#666666; vertical-align:top;&quot;&gt;&amp;quot;&amp;lt;font color=red&amp;gt;Qt!&amp;lt;/font&amp;gt;&amp;lt;/h2&amp;gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#333333; vertical-align:top;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#0000dd; vertical-align:top;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#000000; vertical-align:top;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:12px; color:#333333; vertical-align:top;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>698</width>
+             <height>69</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>普通标签</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>标签控件支持换行
+添加\n即可</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>单选框&amp;复选框</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QRadioButton" name="radioButton">
+             <property name="toolTipDuration">
+              <number>-10</number>
+             </property>
+             <property name="text">
+              <string>单选框1</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_2">
+             <property name="text">
+              <string>单选框1</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_3">
+             <property name="text">
+              <string>单选框1</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox">
+             <property name="text">
+              <string>三态复选框</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+             <property name="autoExclusive">
+              <bool>false</bool>
+             </property>
+             <property name="tristate">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="documentMode">
+           <bool>false</bool>
+          </property>
+          <property name="tabBarAutoHide">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="tab">
+           <attribute name="title">
+            <string>富文本框</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QTextEdit" name="textEdit">
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:5px; margin-bottom:0px; margin-left:10px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12px; color:#777777;&quot;&gt;Quick Navigation&lt;/span&gt;&lt;span style=&quot; font-size:12px;&quot;&gt; &lt;/span&gt;&lt;a name=&quot;yui-gen32&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.qtcentre.org/threads/543-QLabel-with-HTML-style-formatting-docs?s=6053c114b3ae84d3f2a1ecd6719654b0&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Calibri,Verdana,Geneva,sans-serif'; font-size:10px; font-weight:600; text-decoration: underline; color:#566e19;&quot;&gt;Q&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Tahoma,Calibri,Verdana,Geneva,sans-serif'; font-size:10px; font-weight:600; color:#566e19;&quot;&gt;t Programming&lt;/span&gt;&lt;span style=&quot; font-size:12px;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://www.qtcentre.org/threads/543-QLabel-with-HTML-style-formatting-docs#top&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Calibri,Verdana,Geneva,sans-serif'; font-size:10px; font-weight:600; text-decoration: underline; color:#566e19;&quot;&gt;Top&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:11px; font-weight:600; color:#5d5d5d;&quot;&gt;«&lt;/span&gt;&lt;span style=&quot; font-size:11px; color:#5d5d5d;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://www.qtcentre.org/threads/543-QLabel-with-HTML-style-formatting-docs?s=6053c114b3ae84d3f2a1ecd6719654b0&amp;amp;goto=nextoldest&quot;&gt;&lt;span style=&quot; font-size:11px; text-decoration: underline; color:#a6ce39;&quot;&gt;Previous Thread&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:11px; color:#5d5d5d;&quot;&gt; | &lt;/span&gt;&lt;a href=&quot;https://www.qtcentre.org/threads/543-QLabel-with-HTML-style-formatting-docs?s=6053c114b3ae84d3f2a1ecd6719654b0&amp;amp;goto=nextnewest&quot;&gt;&lt;span style=&quot; font-size:11px; text-decoration: underline; color:#566e19;&quot;&gt;Next Thread&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:11px; color:#5d5d5d;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:11px; font-weight:600; color:#5d5d5d;&quot;&gt;»&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:5px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;thread_info&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Tahoma,Calibri,Verdana,Geneva,sans-serif'; font-size:medium; font-weight:600; color:#ffffff;&quot;&gt;S&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Calibri,Verdana,Geneva,sans-serif'; font-size:medium; font-weight:600; color:#ffffff;&quot;&gt;imilar Threads&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;a name=&quot;similar_threads_list&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.qtcentre.org/threads/12065-QLabel-ScaledContents-ignored-by-style-sheet?s=6053c114b3ae84d3f2a1ecd6719654b0&quot;&gt;&lt;span style=&quot; font-size:12px; text-decoration: underline; color:#566e19;&quot;&gt;Q&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:12px; color:#566e19;&quot;&gt;Label ScaledContents ignored by style sheet?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11px; color:#3e3e3e;&quot;&gt;By WinchellChung in forum Newbie&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma,Calibri,Verdana,Geneva,sans-serif'; font-size:11px; color:#777777; background-color:#ffffff;&quot;&gt;Replies:&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Calibri,Verdana,Geneva,sans-serif'; font-size:11px; color:#3e3e3e; background-color:#ffffff;&quot;&gt; 3&lt;/span&gt;&lt;span style=&quot; color:#3e3e3e;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_2">
+           <attribute name="title">
+            <string>表格</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QTableWidget" name="tableWidget">
+              <row>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </column>
+              <item row="0" column="0">
+               <property name="text">
+                <string>Cell 1/1</string>
+               </property>
+              </item>
+              <item row="0" column="1">
+               <property name="text">
+                <string>Cell 2/1</string>
+               </property>
+              </item>
+              <item row="1" column="0">
+               <property name="text">
+                <string>Cell 1/2</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>输入控件</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="2" column="0" colspan="2">
+            <widget class="QDateTimeEdit" name="dateTimeEdit"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QSlider" name="horizontalSlider">
+             <property name="value">
+              <number>60</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2">
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="text">
+              <string>test</string>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" rowspan="3">
+            <widget class="QDial" name="dial">
+             <property name="value">
+              <number>30</number>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0" colspan="2">
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="0" colspan="2">
+            <widget class="QSpinBox" name="spinBox"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QScrollBar" name="horizontalScrollBar">
+             <property name="value">
+              <number>25</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>按钮演示</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>这是一个图标加上文字的按钮</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>screenshot_mac_frameless_window_qt_dark_style_enabled.png</normaloff>screenshot_mac_frameless_window_qt_dark_style_enabled.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/darkstyle/icon_branch_closed.png);</string>
+             </property>
+             <property name="text">
+              <string>这是一个加背景图的按钮</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string>这是一个透明按钮</string>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="styleSheet">
+              <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(9, 41, 4, 255), stop:0.085 rgba(2, 79, 0, 255), stop:0.19 rgba(50, 147, 22, 255), stop:0.275 rgba(236, 191, 49, 255), stop:0.39 rgba(243, 61, 34, 255), stop:0.555 rgba(135, 81, 60, 255), stop:0.667 rgba(121, 75, 255, 255), stop:0.825 rgba(164, 255, 244, 255), stop:0.885 rgba(104, 222, 71, 255), stop:1 rgba(93, 128, 0, 255));
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 0, 255), stop:0.339795 rgba(255, 0, 0, 255), stop:0.339799 rgba(255, 255, 255, 255), stop:0.662444 rgba(255, 255, 255, 255), stop:0.662469 rgba(0, 0, 255, 255), stop:1 rgba(0, 0, 255, 255));</string>
+             </property>
+             <property name="text">
+              <string>这是一个渐变色的例子</string>
+             </property>
+             <property name="default">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox">
+             <property name="editable">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>New Item</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item 2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>New Item 3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="2">
+         <widget class="QProgressBar" name="progressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="text">
+           <string>禁用以下控件</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>webkit</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>746</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTest">
+    <property name="title">
+     <string>菜单栏演示</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>多级</string>
+     </property>
+     <addaction name="action"/>
+    </widget>
+    <addaction name="menu"/>
+    <addaction name="actionTest_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionTest_3"/>
+   </widget>
+   <addaction name="menuTest"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionTest_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>可选按钮</string>
+   </property>
+  </action>
+  <action name="actionTest_3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>screenshot_mac_frameless_window_qt_dark_style_disabled.png</normaloff>screenshot_mac_frameless_window_qt_dark_style_disabled.png</iconset>
+   </property>
+   <property name="text">
+    <string>带图标的</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>二级</string>
+   </property>
+   <property name="toolTip">
+    <string>二级</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="darkstyle.qrc"/>
+  <include location="framelesswindow.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>677</x>
+     <y>422</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>76</x>
+     <y>422</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>tabWidget</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>501</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>677</x>
+     <y>633</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>progressBar</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>627</x>
+     <y>659</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>mainToolBar</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>105</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>menuBar</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>64</x>
+     <y>7</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>statusBar</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>533</x>
+     <y>703</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>comboBox</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>67</x>
+     <y>216</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_2</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>on_current_stylechanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>168</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>on_tab_show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>473</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>-37</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>on_tab_hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>545</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>421</x>
+     <y>-34</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>on_expan_window()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>639</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>829</x>
+     <y>48</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_2</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>on_jump_tab(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>356</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>740</x>
+     <y>59</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>on_current_stylechanged(QString)</slot>
+  <slot>on_tab_show()</slot>
+  <slot>on_tab_hide()</slot>
+  <slot>on_expan_window()</slot>
+  <slot>on_jump_tab(QString)</slot>
+ </slots>
+</ui>
